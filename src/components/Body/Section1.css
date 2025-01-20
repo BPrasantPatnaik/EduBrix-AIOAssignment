@@ -1,0 +1,73 @@
+.university-selection-section {
+    background-color: #f4f7fb;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:90%;
+    margin: 40px auto;
+  }
+  
+  .university-selection-section h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+  }
+  
+  .university-selection-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .university-selection-section .HeadText{
+    font-size: 2rem;
+    color: blue;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .selection-list {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  
+  .university-selection-section ul {
+    display: flex;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    justify-items: start;
+  }
+
+  .selection-list li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border:5px
+  }
+  
+  .selection-list li div:first-child {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 5rem;
+    color: orange;
+    opacity: 0.6;
+  }
+  
+  .selection-list li div:last-child {
+    position: relative;
+    font-size: 1.5rem;
+    color: #444;
+    z-index: 1;
+  }
+  

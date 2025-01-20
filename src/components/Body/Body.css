@@ -1,0 +1,62 @@
+/* Body.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .body-container {
+    padding: 20px;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.-f3ds__oqlXzgtndeZPi_gHaEE&pid=Api&P=0&h=180');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding:0px;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color:rgb(62, 113, 232);
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color:orange
+  }
+  
+  .cta-button {
+    background-color: orange;
+    color:rgb(247, 247, 248);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #2575fc;
+    color: white;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }

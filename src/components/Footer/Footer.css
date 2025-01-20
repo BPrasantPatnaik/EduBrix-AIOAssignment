@@ -1,0 +1,7 @@
+.footer-copyright {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37B7C3;
+    color:#FDF7F4;
+  }
